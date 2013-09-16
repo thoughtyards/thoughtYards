@@ -78,7 +78,6 @@ EOD;
 					$this->csvFile= trim($args[0]); //Sanitization is handeled by CSV Helper
 					else{
 						$error= "ERROR: Invalid CSV file '".$args[0]."', Please enter the FileName with extension .CSV.\n\n";
-						echo $error.$this->getHelp();
 						return false;
 					}
 				}
@@ -105,7 +104,7 @@ EOD;
 	 */
 	public function __destruct()
 	{
-		echo $this->getHelp();
+		//echo $this->getHelp();
 	}
 }
 ?>
