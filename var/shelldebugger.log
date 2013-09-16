@@ -1,0 +1,6 @@
+ShellCommand
+in C:\xampp\htdocs\mikko\MAIN-local\web-boot\cli\commands\ShellCommand.php (62)
+in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\ConsoleKernel\CConsoleCommandRunner.php (77)
+in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\ConsoleKernel\CConsoleApplication.php (64)
+in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\CApplication.php (194)
+in C:\xampp\htdocs\mikko\MAIN-local\web-boot\console.php (45)

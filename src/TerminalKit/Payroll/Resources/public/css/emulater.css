@@ -1,0 +1,31 @@
+input, textarea, select, option, td {
+    color: #BBBDF3;
+    background-color: #00006C;
+    font-family: Terminus, TTFminus, Fixedsys, Fixed, Terminal, Courier New, Courier;
+    font-size: 18px;
+}
+
+textarea {
+    overflow-y: auto;
+    border-width: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+input {
+    border-width: 0px;
+    height: 26px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+select, option {
+    color: #000000;
+    background-color: #BBBBBB;
+}
+
+body {
+    overflow-y: hidden;
+    margin: 0;
+}

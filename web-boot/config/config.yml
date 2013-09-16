@@ -1,0 +1,7 @@
+#Demonstrate to show this could be normalized 
+#For a time being adding relative paths,  Will be removed once the xml layouts will be develeoped in ThoughtYards framework.
+Payroll:
+    export_dir: ../var/exports/
+    cssPath: /src/TerminalKit/Payroll/Resources/public/css/
+    jsPath: /src/TerminalKit/Payroll/Resources/public/js/
+    you-can-add-as-maximum: in-any-string-format

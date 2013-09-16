@@ -1,0 +1,25 @@
+ThoughtYards\Kinetics\Component\ThoughtException 'PropertyThoughtYards\Kinetics\ConsoleKernel\CConsoleApplication_mis not defined.' in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYComponent.php(56)
+#0 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYModule.php(110): ThoughtYards\Kinetics\Component\TYComponent->__get('_m')
+#1 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYComponent.php(87): ThoughtYards\Kinetics\Component\TYModule->__get('_m')
+#2 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYModule.php(518): ThoughtYards\Kinetics\Component\TYComponent->__set('log', Array)
+#3 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\CApplication.php(174): ThoughtYards\Kinetics\Component\TYModule->configure(Array)
+#4 C:\xampp\htdocs\mikko\MAIN-local\web-boot\Gateway.php(266): ThoughtYards\Kinetics\Component\CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\mikko\MAIN-local\web-boot\Gateway.php(253): Gateway::loadApplication('CConsoleApplica...', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\mikko\MAIN-local\web-boot\index.php(19): Gateway::CosoleKitInit('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/mikko/MAIN-local/web-boot/
+HTTP_REFERER=http://localhost/mikko/MAIN-local/
+---
+in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\CApplication.php (736)ThoughtYards\Kinetics\Component\ThoughtException 'PropertyThoughtYards\Kinetics\ConsoleKernel\CConsoleApplication_mis not defined.' in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYComponent.php(56)
+#0 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYModule.php(110): ThoughtYards\Kinetics\Component\TYComponent->__get('_m')
+#1 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYComponent.php(87): ThoughtYards\Kinetics\Component\TYModule->__get('_m')
+#2 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\TYModule.php(518): ThoughtYards\Kinetics\Component\TYComponent->__set('log', Array)
+#3 C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\CApplication.php(174): ThoughtYards\Kinetics\Component\TYModule->configure(Array)
+#4 C:\xampp\htdocs\mikko\MAIN-local\web-boot\Gateway.php(266): ThoughtYards\Kinetics\Component\CApplication->__construct('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\mikko\MAIN-local\web-boot\Gateway.php(253): Gateway::loadApplication('CConsoleApplica...', 'C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\mikko\MAIN-local\web-boot\index.php(19): Gateway::CosoleKitInit('C:\xampp\htdocs...')
+#7 {main}
+REQUEST_URI=/mikko/MAIN-local/web-boot/
+HTTP_REFERER=http://localhost/mikko/MAIN-local/
+---
+in C:\xampp\htdocs\mikko\MAIN-local\vendor\thoughtyards\framework\src\Kinetics\Component\CApplication.php (736)

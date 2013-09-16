@@ -1,0 +1,9 @@
+TerminlaKit\Payroll:
+#Salary Command
+    get-salary:
+        pattern: /shell-commander/
+        resolve: { _controller: TerminlaKit\Payroll:Salary:live }
+#Terminal Command	
+    shell-commander:
+        pattern: /thoughtyards-terminal/
+        resolve: { _controller: TerminlaKit\Payroll:Term:index }

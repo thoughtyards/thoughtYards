@@ -1,0 +1,9 @@
+structure:
+    base_url: http://mikkotest.demo/
+    config: app/config,
+supported_config:
+    config:config,
+    router:router,
+    validation:validation
+	
+	

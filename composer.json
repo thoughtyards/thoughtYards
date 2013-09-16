@@ -1,0 +1,35 @@
+{
+    "name": "thoughtyards/payroll/terminal",
+    "description": "Command Line interface for Payroll system.",
+    "homepage": "https://github.com/thoughtyards/Thoughtyards",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": [
+        "console",
+        "tasks"
+    ],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Vipul Dadhich",
+            "email": "vipul.dadhich@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "bin": [
+        "bin/console"
+    ],
+    "require": {
+	"php": ">=5.3.3",
+	"phpunit/phpunit": "3.7.*",
+    "thoughtyards/framework": "dev-master"    
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/",
+	  "ThoughtYards": "vendor/thoughtyards/framework/src/"
+      },
+	  "classmap": [""] 
+  }
+}
