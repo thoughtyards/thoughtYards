@@ -147,7 +147,7 @@ class CConsoleApplication extends CApplication
 	public function setCommandPath($value)
 	{
 		if(($this->_commandPath=realpath($value))===false || !is_dir($this->_commandPath))
-		throw new ThoughtException(Gateway::log("The command path '.$value.' is not a valid directory.");
+		throw new ThoughtException(Gateway::log("The command path '.$value.' is not a valid directory."));
 		
 	}
 
